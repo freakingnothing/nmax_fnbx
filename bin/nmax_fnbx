@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'nmax_fnbx'
+
+n = ARGV[0].to_i
+
+app = NmaxFnbx::App.new(STDIN, n)
+app.perform
+
+
+
